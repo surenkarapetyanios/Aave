@@ -9,4 +9,4 @@ async function getWeth() {
     const wethBalance = await iWeth.balanceOf(deployer)
     console.log(`Got ${wethBalance.toString()} WETH`)
 }
-module.exports = { getWeth }
+module.exports = { getWeth, AMOUNT }
